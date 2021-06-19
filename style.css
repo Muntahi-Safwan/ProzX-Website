@@ -179,3 +179,11 @@ button.btn:hover{
   background-color: rgb(170, 43, 243);
   color: white;
 }
+
+/* ------------------Feature------------------ */
+
+.feature{
+  height: 600000px;
+  width: 100%;
+
+}
