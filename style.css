@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 header {
@@ -9,11 +12,13 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 10%;
-  background-color: #162141;
+  background-color: #074ca5;
+  position: sticky;
 }
 
 .logo {
   cursor: pointer;
+  size: 50px;
 }
 
 .nav__links a,
@@ -21,7 +26,7 @@ header {
 .overlay__content a {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  color: #edf0f1;
+  color: #ffffff9d; 
   text-decoration: none;
 }
 
@@ -39,12 +44,13 @@ header {
 }
 
 .nav__links li a:hover {
-  color: #0088a9;
+  color: #ffffff;
 }
 
 .cta {
   padding: 9px 25px;
-  background-color: rgba(0, 136, 169, 1);
+  color: white;
+  background-color: rgb(101, 168, 255);
   border: none;
   border-radius: 50px;
   cursor: pointer;
@@ -52,13 +58,14 @@ header {
 }
 
 .cta:hover {
-  background-color: rgba(0, 136, 169, 0.8);
+  background-color: rgb(85, 140, 243);
 }
 
-/* Mobile Nav */
+/* -----------Mobile Nav------------- */
 
 .menu {
   display: none;
+  color: white;
 }
 
 .overlay {
@@ -68,7 +75,7 @@ header {
   z-index: 1;
   left: 0;
   top: 0;
-  background-color: #24252a;
+  background-color: #000000ea;
   overflow-x: hidden;
   transition: width 0.5s ease 0s;
 }
@@ -94,14 +101,15 @@ header {
 
 .overlay a:hover,
 .overlay a:focus {
-  color: #0088a9;
+  color: #ffffff;
+  font-weight: 1200;
 }
 .overlay .close {
   position: absolute;
   top: 20px;
   right: 45px;
   font-size: 60px;
-  color: #edf0f1;
+  color: #ffffffbb;
 }
 
 @media screen and (max-height: 450px) {
@@ -123,4 +131,51 @@ header {
   .menu {
     display: initial;
   }
+}
+
+/* ----------------About---------------------- */
+.about{
+  height: 100vh;
+  width: 100%;
+  background-color:#162141;
+  color: white;
+  padding-left: 80px; 
+}
+h2{
+  width: 45%;
+  padding-top: 130px;
+  font-size: 25px;
+}
+h1{
+  width: 45%;
+  font-size: 40px;
+}
+div img {
+  float: right;
+  width: 50%;
+  height: 65%;
+  padding: 0;
+}
+span{
+  height: 20px;
+  width: 15px;
+  background-color: transparent;
+  display: inline-block;
+}
+p{
+  width: 45%;
+}
+button.btn{
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 115, 246);
+  padding: 10px 20px;
+  border: 2px;
+  border-radius: 8px;
+  font-size: 25px;
+  font-weight: 800;
+  transition: .8s;
+}
+button.btn:hover{
+  background-color: rgb(170, 43, 243);
+  color: white;
 }
