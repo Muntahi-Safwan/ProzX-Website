@@ -215,10 +215,10 @@ span{
   align-items: flex-start;
 }
 #about img{
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
   float: left;
-  margin: 70px 0px 0px 80px;
+  margin: 70px 20px 0px 70px;
 }
 #about .right-col{
   flex-basis: 55%;
