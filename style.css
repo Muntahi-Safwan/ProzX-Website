@@ -18,7 +18,7 @@ header {
 
 .logo {
   cursor: pointer;
-  size: 50px;
+  size: 15px;
 }
 
 .nav__links a,
@@ -135,7 +135,7 @@ header {
 
 /* ----------------Landing Page---------------------- */
 #landingPage{
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   background-color:#162141;
   color: white;
@@ -191,7 +191,8 @@ span{
 
 /* ------------------About Us ------------------ */
 
-#about div.back{
+#about .back{
+  padding-top: 100px;
   height: 100vh;
   width: 100%;
   align-items: center;
@@ -206,9 +207,10 @@ span{
   height: 75vh;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 #about .left-col{
-  width: 45%;
+ flex-basis: 45%;
   height: 75vh;
   align-items: flex-start;
 }
@@ -219,15 +221,15 @@ span{
   margin: 70px 0px 0px 80px;
 }
 #about .right-col{
-  width: 55%;
+  flex-basis: 55%;
   align-items: center;
-  background-size: cover;
-
+  height: 75vh;
+  align-items: flex-start;
 }
 #about h1{
   font-size: 30px;
   color: rgba(255, 255, 255, 0.787);
-  margin: 100px 0 0px 0;
+  margin: 120px 0 0px 0;
 }
 #about h2{
   font-size: 60px;
@@ -239,8 +241,8 @@ span{
   font-weight: 100;
   font-size: 17px;
   text-align: justify;
-  padding-right: 27px;
-  padding-top: 30px;
+  padding-right: 50px;
+  padding-top: 10px;
   line-height: 30px;
   width: 100%;
 }
@@ -269,20 +271,4 @@ span{
   width: 265px;
   outline: none;
   background-color: #ffffff
-}
-#about .btn{
-  color: rgb(255, 255, 255);
-  background-color: rgb(0, 115, 246);
-  padding: 10px;
-  border-radius: 8px;
-  font-size: 25px;
-  font-weight: 600;
-  transition: .6s;
-  outline: none;
-  border: 0px;
-}
-#about .btn:hover{
-  padding: 30px;
-  background-color: #0c32a1;
-  color: white;
 }

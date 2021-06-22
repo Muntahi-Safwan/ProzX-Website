@@ -1,0 +1,16 @@
+   #about .btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 115, 246);
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: 600;
+    transition: .6s;
+    outline: none;
+    border: 0px;
+  }
+  #about .btn:hover{
+    padding: 30px;
+    background-color: #0c32a1;
+    color: white;
+  } 
