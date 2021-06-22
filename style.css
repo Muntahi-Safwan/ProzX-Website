@@ -133,28 +133,35 @@ header {
   }
 }
 
-/* ----------------About---------------------- */
-.about{
+/* ----------------Landing Page---------------------- */
+#landingPage{
   height: 100vh;
   width: 100%;
   background-color:#162141;
   color: white;
-  padding-left: 80px; 
+  padding-left: 100px; 
 }
-h2{
-  width: 45%;
-  padding-top: 130px;
-  font-size: 25px;
+#landingPage h2{
+  width: 60%;
+  padding-top: 160px;
+  margin-bottom: 0px;
+  font-size: 35px;
 }
-h1{
-  width: 45%;
-  font-size: 60px;
+#landingPage h1{
+  width: 60%;
+  font-size: 80px;
+  padding-top: 0px;
+  margin-top: 0px;
 }
-div img {
+#landingPage p{
+  font-size: 23px;
+  line-height: 30px;
+}
+#landingPage div img {
   float: right;
-  width: 50%;
+  width: 40%;
   height: 65%;
-  padding: 0;
+  padding: 60px 30px 15px 0px;
 }
 span{
   height: 20px;
@@ -162,28 +169,120 @@ span{
   background-color: transparent;
   display: inline-block;
 }
-p{
-  width: 45%;
+#landingPage p{
+  width: 55%;
+  line-height: 35px;
 }
-button.btn{
+#landingPage button.btn{
   color: rgb(255, 255, 255);
   background-color: rgb(0, 115, 246);
-  padding: 10px 20px;
+  padding: 15px 30px;
   border: 2px;
   border-radius: 8px;
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 800;
-  transition: .8s;
+  transition: .4s;
+  margin-top: 30px;
 }
-button.btn:hover{
+#landingPage button.btn:hover{
   background-color: rgb(170, 43, 243);
   color: white;
 }
 
-/* ------------------Feature------------------ */
+/* ------------------About Us ------------------ */
 
-.feature{
-  height: 600000px;
+#about div.back{
+  height: 100vh;
   width: 100%;
+  align-items: center;
+  background-color: #162141; 
+  
+}
+#about .mainBox{
+  background-color: #074ba578;
+  margin: auto;
+  border-radius: 20px;
+  width: 90%;
+  height: 75vh;
+  display: flex;
+  flex-direction: row;
+}
+#about .left-col{
+  width: 45%;
+  height: 75vh;
+  align-items: flex-start;
+}
+#about img{
+  width: 500px;
+  height: 500px;
+  float: left;
+  margin: 70px 0px 0px 80px;
+}
+#about .right-col{
+  width: 55%;
+  align-items: center;
+  background-size: cover;
 
+}
+#about h1{
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.787);
+  margin: 100px 0 0px 0;
+}
+#about h2{
+  font-size: 60px;
+  color: white;
+  margin: 0px 0 0 -5px;
+}
+#about p{
+  color: white;
+  font-weight: 100;
+  font-size: 17px;
+  text-align: justify;
+  padding-right: 27px;
+  padding-top: 30px;
+  line-height: 30px;
+  width: 100%;
+}
+#about span.lin-1{
+  display: inline-block;
+  height: 3px;
+  width: 65px;
+  outline: none;
+  background-color: #ffffff
+  
+
+}
+#about span.lin-2{
+  margin: 0px;
+  display: inline-block;
+  height: 3px;
+  width: 150px;
+  outline: none;
+  background-color: #ffffff
+  
+
+}
+#about span.lin-3{
+  display: inline-block;
+  height: 3px;
+  width: 265px;
+  outline: none;
+  background-color: #ffffff
+}
+#about .btn{
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 115, 246);
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 25px;
+  font-weight: 600;
+  transition: .6s;
+  outline: none;
+  border: 0px;
+}
+#about .btn:hover{
+  padding: 30px;
+  background-color: #0c32a1;
+  color: white;
 }
